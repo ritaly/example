@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_GB">
+  <head>
+    <meta charset="utf-8" /><meta content="noindex" name="robots" />
+
+    <title>Szybkie wprowadzenie &#8212; Fly Nerd</title>
+    <link rel="stylesheet" href="_static/base.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Zmienne i typy" href="python_types.html" />
+    <link rel="prev" title="Instalacja" href="install.html" /> 
+  </head><body>
+  
+  
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="python_types.html" title="Zmienne i typy"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="install.html" title="Instalacja"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Fly Nerd</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="szybkie-wprowadzenie">
+<h1>Szybkie wprowadzenie<a class="headerlink" href="#szybkie-wprowadzenie" title="Permalink to this headline">¶</a></h1>
+<p>Zacznijmy od uruchomienia Pythona:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>~$ python
+Python <span class="m">3</span>.7.0 <span class="o">(</span>...<span class="o">)</span>
+Type <span class="s2">&quot;copyright&quot;</span>, <span class="s2">&quot;credits&quot;</span> or <span class="s2">&quot;license&quot;</span> <span class="k">for</span> more information.
+
+&gt;&gt;&gt;
+</pre></div>
+</div>
+<p>Znak zachęty <code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt;</span></code> (otworzyliśmy tryb interaktywny Pythona, nie przepisujemy znaku zachęty!)</p>
+<p>Przetestujmy Pythona: <code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">+</span> <span class="pre">2</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="go">4</span>
+</pre></div>
+</div>
+<p>Python jako kalkulator:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">6</span> <span class="o">*</span> <span class="mi">7</span>
+<span class="go">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">1252</span> <span class="o">-</span> <span class="mi">38</span> <span class="o">*</span> <span class="mi">6</span>
+<span class="go">1024</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">(</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">5</span><span class="p">)</span> <span class="o">*</span> <span class="mi">7</span>
+<span class="go">-14</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">21</span> <span class="o">/</span> <span class="mi">7</span>
+<span class="go">3.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">3</span><span class="o">**</span><span class="mi">2</span>
+<span class="go">9</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="go">2.5</span>
+</pre></div>
+</div>
+<p>Zapis liczb dziesiętnych: używamy kropki, nie przecinka. Przecinki w Pythonie są używane do
+np. definiowania krotek (ale o tym będzie później).</p>
+<p>Operatory arytmeryczne:</p>
+<ul>
+<li><p>dodawnie +</p></li>
+<li><p>odejmowanie -</p></li>
+<li><p>mnożenie *</p></li>
+<li><p>dzielenie /</p></li>
+<li><p>dzielenie modulo %</p></li>
+<li><p>dzielenie “podłoga” //</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">7</span> <span class="o">//</span> <span class="mi">3</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">7</span> <span class="o">%</span> <span class="mi">2</span>
+<span class="go">1</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<div class="section" id="przedstaw-sie">
+<h2>Przedstaw się!<a class="headerlink" href="#przedstaw-sie" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="string">
+<h3>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h3>
+<p>Typ <code class="docutils literal notranslate"><span class="pre">strings</span></code> - czyli łańcuchy znaków = napisy</p>
+<p>Przykłady:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Hello World&#39;</span>
+<span class="go">&#39;Hello World&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Ala ma kota&quot;</span>
+<span class="go">&#39;Ala ma kota&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Rock &#39;n&#39; Roll&quot;</span>
+<span class="go">&quot;Rock &#39;n&#39; Roll&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Rock </span><span class="se">\&#39;</span><span class="s1">n</span><span class="se">\&#39;</span><span class="s1"> Roll&#39;</span>
+<span class="go">&quot;Rock &#39;n&#39; Roll&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Najlepszą książką kulinarną roku została &quot;Jadłonomia&quot;&#39;</span>
+<span class="go">Najlepszą książką kulinarną roku została &quot;Jadłonomia&quot;&#39;</span>
+</pre></div>
+</div>
+<p>Ciągi znaków można dodawać:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Najlepszy film w historii kina to&#39;</span> <span class="o">+</span> <span class="s1">&#39;&quot;XXX&quot;&#39;</span>
+<span class="go">&#39;Najlepszy film w historii kina to &quot;XXX&quot;&#39;</span>
+</pre></div>
+</div>
+<p>lub mnożyć za pomocą liczb całkowitych:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Hello&#39;</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="go">&#39;HelloHelloHello&#39;</span>
+</pre></div>
+</div>
+<p>czy nazwać wartość, by ją ponownie użyć:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;&quot;Obywatel Kane&quot;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Najlepszy film w historii kina to &#39;</span> <span class="o">+</span> <span class="n">title</span>
+<span class="go">&#39;Najlepszy film w historii kina to &quot;Obywatel Kane&quot;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;W weekend leci &#39;</span> <span class="o">+</span> <span class="n">title</span> <span class="o">+</span> <span class="s1">&#39; w telewizji&#39;</span>
+<span class="go">&#39;W weekend leci &quot;Obywatel Kane&quot; w telewizji&#39;</span>
+</pre></div>
+</div>
+<p>Ciągi znaków zawsze zaczynają się tym samym znakiem. Za pomocą apostrofu (<code class="docutils literal notranslate"><span class="pre">'</span></code>) lub
+cudzysłowu (<code class="docutils literal notranslate"><span class="pre">&quot;</span></code>). Nie ma to wpływu na wyświetlanie stringa np. <code class="docutils literal notranslate"><span class="pre">&quot;Abrakadabra&quot;</span></code> wyświetli
+napis <code class="docutils literal notranslate"><span class="pre">Abrakadabra</span></code> - cudzysłów nie jest częścią napisu, wskazuje, że będziemy podawać łańcuch
+znaków czyli napis.</p>
+</div>
+<div class="section" id="wyswietlanie-napisow">
+<h3>Wyświetlanie napisów<a class="headerlink" href="#wyswietlanie-napisow" title="Permalink to this headline">¶</a></h3>
+<p>Używamy funkcji wbudowanej <a class="reference external" href="https://docs.python.org/3/library/functions.html#print" title="(in Python v3.7)"><code class="xref py py-func docutils literal notranslate"><span class="pre">print()</span></code></a> :</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">)</span>
+<span class="go">Hello World</span>
+</pre></div>
+</div>
+<p>Wyświetlanie kilku napisów bez dodawania ich do siebie.
+Będą oddzielone spacją:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hi, my name is&quot;</span><span class="p">,</span> <span class="s2">&quot;Rita&quot;</span><span class="p">)</span>
+<span class="go">Hi, my name is Rita</span>
+</pre></div>
+</div>
+<p>Inne przykłady:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="go">1 2 3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;2 + 2 =&quot;</span><span class="p">,</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">2 + 2 = 4</span>
+</pre></div>
+</div>
+<p><strong>Zadania:</strong></p>
+<ul class="simple">
+<li><p>Jaki jest będzie wynik wyrażenia: <code class="docutils literal notranslate"><span class="pre">'*'</span> <span class="pre">*</span> <span class="pre">10</span></code> ?</p></li>
+<li><p>Ile wynosi reszta z dzielenia 11772 przez 654?</p></li>
+<li><p>Oblicz ile funtów (lbs) waży wieża Eiffla?</p></li>
+</ul>
+<p>Aby zakończyć pracę w trybie interaktywnym Pythona wpisujemy polecenie <cite>quit()</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">quit</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Możemy skorzystać ze skrótu klawiszowego <code class="docutils literal notranslate"><span class="pre">Ctrl+D</span></code> (Mac/Linux) lub <code class="docutils literal notranslate"><span class="pre">Ctrl+Z</span></code> (Windows).</p>
+</div>
+</div>
+<div class="section" id="pliki-zrodlowe">
+<h2>Pliki źródłowe<a class="headerlink" href="#pliki-zrodlowe" title="Permalink to this headline">¶</a></h2>
+<p>W trybie interaktywnym wydajemy polecenia osobno i natychmiast otrzymujemy odpowiedź.</p>
+<p>Znacznie wygodniej trzymać kod w pliku. Kod edytujemy w PyCharmie.</p>
+<p>Nasz pierwszy program wyglądał następująco:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Stwórzmy nowy plik <code class="docutils literal notranslate"><span class="pre">triangle.py</span></code>.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>~$ python triangle.py
++
+++
++++
+~$
+</pre></div>
+</div>
+<p>Pojedynczy program może zawierać więcej niż jedno polecenie. Na przykład:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;my name is Rita&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bye.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Możemy wstawić puste linie w pliku <code class="docutils literal notranslate"><span class="pre">hello.py</span></code>, żeby poprawić czytelność.</p>
+<div class="section" id="zadania">
+<h3>Zadania:<a class="headerlink" href="#zadania" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Stwórz skrypt <code class="docutils literal notranslate"><span class="pre">weeks.py</span></code>. Napisz program, który obliczy i wyświetli liczbę minut w ciągu siedmiu tygodni.</p></li>
+<li><p>Dokładnie 75 godziny. Tyle czasu wg. naukowców potrzeba, aby nabyć nową umiejętność. Oblicz ile pełnych tygodni zajmie Ci zdobycie nowej umiejętności, w zależności o tego, ile czasu jesteś wstanie poświęcić na naukę w tygodniu.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="bmi-kalculator">
+<h2>BMI kalculator<a class="headerlink" href="#bmi-kalculator" title="Permalink to this headline">¶</a></h2>
+<p>Najsłynniejsze zadanie z podstaw programowania. Kalkulator <cite>BMI</cite> (<a class="reference external" href="http://pl.wikipedia.org/wiki/Body_Mass_Index">Body Mass Index</a>).
+Wzór jest bardzo prosty:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>BMI = (masa (kg)) / (wzrost (m))²
+</pre></div>
+</div>
+<p>Stwórz plik <code class="docutils literal notranslate"><span class="pre">bmi.py</span></code>
+i napisz program, który obliczy BMI:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your BMI is: 20.56880661366243
+</pre></div>
+</div>
+<p><em>(rozwiązanie poniżej)</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p>Załóżmy, że nasz kod wyglądał o tak</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your BMI is:&quot;</span><span class="p">,</span> <span class="mi">52</span> <span class="o">/</span> <span class="p">(</span><span class="mf">1.59</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>Łatwo dostrzec, że kod wymaga poprawek:</p>
+<ol class="arabic simple">
+<li><p>Zeby obliczyć BMI inne niż własne musimy zmodyfikować plik <code class="docutils literal notranslate"><span class="pre">bmi.py</span></code></p></li>
+<li><p>Wyświetlanie tylu miejsc po przecinku nie ma sensu. Dokładność BMI
+wystarczy podać w zaokrągleniu do 2 miejsc.</p></li>
+</ol>
+<p>Programowanie polega na rozwiązywaniu problemów. Weźmiemy się za dwa powyższe.
+Do pierwszego potrzebujemy poznać kolejną funkcję wbudowaną <code class="docutils literal notranslate"><span class="pre">input()</span></code>.</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Ile masz lat?&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;To już&#39;</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="s1">&#39;lat!&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Imię? &#39;&#39;)</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cześć &#39;&#39; + name)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Co robi funkcja <a class="reference external" href="https://docs.python.org/3/library/functions.html#input" title="(in Python v3.7)"><code class="xref py py-func docutils literal notranslate"><span class="pre">input()</span></code></a> ?</p></li>
+<li><p>Jak działa funkcja <a class="reference external" href="https://docs.python.org/3/library/functions.html#round" title="(in Python v3.7)"><code class="xref py py-func docutils literal notranslate"><span class="pre">round()</span></code></a>?</p></li>
+</ul>
+</div>
+<div class="section" id="notatki-po-zajeciach">
+<h2>Notatki po zajęciach<a class="headerlink" href="#notatki-po-zajeciach" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="rzutowanie">
+<h3>Rzutowanie<a class="headerlink" href="#rzutowanie" title="Permalink to this headline">¶</a></h3>
+<p>Kiedy mówimy o wartościach liczbowych w najprostrzym przypadku mamy na myśli liczby
+całkowite (ang. <em>integer</em>) oraz dziesiętne, zwane też zmiennoprzecinkowe (ang. <em>floating point</em>).</p>
+<p>Zamiana jednego typu na drugi jest dla nas intuicyjna.
+Liczba całkowita <cite>5</cite> to zmiennoprzecinkowo <cite>5.0</cite>.
+A najbliższą liczbą całkowitą od 5.4 jest po prostu 5.</p>
+<p>Dla komputera informację tę musimy przedstawić przez <em>rzutowanie</em> (inaczej konwersja),
+czyli zmianę jednego typu na drugi.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="mf">7.6</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a_to_float</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">7.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b_to_int</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="go">7</span>
+</pre></div>
+</div>
+<p>Łatwo zauważyć, że zamiana liczby dziesiętnej na całkowitą nie działa jak zaokrąglenie,
+ale powododuje utratę informacji przez <strong>obcięcie wartości po przecinku</strong>.</p>
+<p>Innym przykładem może być zmiana tekstu na liczbę:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">txt</span> <span class="o">=</span> <span class="s1">&#39;124&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">txt</span> <span class="o">+</span> <span class="mi">4</span>
+<span class="go">TypeError: can only concatenate str (not &quot;int&quot;) to str</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">num</span> <span class="o">+</span> <span class="mi">4</span>
+<span class="go">128</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">txt</span> <span class="o">=</span> <span class="s1">&#39;124.345&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">txt</span> <span class="o">+</span> <span class="mf">4.3</span>
+<span class="go">TypeError: can only concatenate str (not &quot;float&quot;) to str</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">num</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">num</span> <span class="o">+</span> <span class="mf">4.3</span>
+<span class="go">124.645</span>
+</pre></div>
+</div>
+<p>Oraz odwrotnie zmiana liczby na tekst:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">num</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Ala ma &#39;</span> <span class="o">+</span> <span class="n">num</span> <span class="o">+</span> <span class="s1">&#39; kotów&#39;</span>
+<span class="go">TypeError: can only concatenate str (not &quot;int&quot;) to str</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">txt</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Ala ma &#39;</span> <span class="o">+</span> <span class="n">txt</span> <span class="o">+</span> <span class="s1">&#39; kotów&#39;</span>
+<span class="go">&#39;Ala ma 6 kotów&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="nazewnictwo-zmiennych">
+<h3>Nazewnictwo zmiennych<a class="headerlink" href="#nazewnictwo-zmiennych" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>pierwszym znakiem musi być litera alfabetu lub podkreślenie</p></li>
+<li><p>może zawierać cyfry i litery oraz podkreślenie</p></li>
+<li><p>nie może zawierać spacji i znaków specjalnych</p></li>
+<li><p>nie może być słowem kluczowym</p></li>
+<li><p>powinna mówić co przechowuje!</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a href="index.html" class="logo"><img class="logo" src="_static/logo.png" style="width: 200px; height: 200px; margin: -10px 0 10px 0"></a>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">Wstęp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Instalacja</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Szybkie wprowadzenie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#przedstaw-sie">Przedstaw się!</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#string">String</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wyswietlanie-napisow">Wyświetlanie napisów</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pliki-zrodlowe">Pliki źródłowe</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#zadania">Zadania:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bmi-kalculator">BMI kalculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#notatki-po-zajeciach">Notatki po zajęciach</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rzutowanie">Rzutowanie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nazewnictwo-zmiennych">Nazewnictwo zmiennych</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_types.html">Zmienne i typy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_flow.html">Instrukcje sterujące</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_collection.html">Kolekcje</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_functions.html">Funkcje</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_xmas_tree.html">Christmas Tree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_files.html">Operacje na plikach</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_json.html">Format JSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_modules.html">Moduły</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_exceptions.html">Wyjątki</a></li>
+<li class="toctree-l1"><a class="reference internal" href="algorithm.html">Algorytmy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP_intro.html">OOP - wprowadzenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP.html">OOP - dziedziczenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_oop_bj.html">Projekt - Blackjack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP_2.html">OOP - decoratory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_oop_strategia.html">Mini projekt - Strategia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_unittest.html">Testy jednostkowe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_test_strategia.html">Mini projekt - Strategia cd.</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+  <div class="footer">
+    &copy; Copyright Fly Nerd.
+  </div>
+  
+  </body>
+</html>

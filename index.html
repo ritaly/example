@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_GB">
+  <head>
+    <meta charset="utf-8" /><meta content="noindex" name="robots" />
+
+    <title>Python od podstaw &#8212; Fly Nerd</title>
+    <link rel="stylesheet" href="_static/base.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Wstęp" href="main.html" /> 
+  </head><body>
+  
+  
+  <div class=indexwrapper>
+
+  <div id="sign-in-container"></div>
+
+  
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="main.html" title="Wstęp"
+             accesskey="N">next</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Fly Nerd</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="python-od-podstaw">
+<h1>Python od podstaw<a class="headerlink" href="#python-od-podstaw" title="Permalink to this headline">¶</a></h1>
+<p>Podręcznik jest częścią warsztatów <em>Python od podstaw</em> organizowanych przez fundację CODE:ME. Opracowanie przygotowane zawieraja lekcję z danego dnia oraz materiały do samodzielnej nauki.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="main.html">Wstęp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Instalacja</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#python">Python</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install.html#windows">Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#linux-ubuntu-fedora-etc">Linux (Ubuntu, Fedora, etc)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#macos">MacOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#inne">Inne</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#narzedzia">Narzędzia</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install.html#linia-polecen-windows">Linia poleceń - Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#terminal-linux-os">Terminal - Linux / OS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#pycharm">PyCharm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#git-i-github">Git i Github</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_quickstart.html">Szybkie wprowadzenie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_quickstart.html#przedstaw-sie">Przedstaw się!</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_quickstart.html#string">String</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_quickstart.html#wyswietlanie-napisow">Wyświetlanie napisów</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_quickstart.html#pliki-zrodlowe">Pliki źródłowe</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_quickstart.html#zadania">Zadania:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_quickstart.html#bmi-kalculator">BMI kalculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_quickstart.html#notatki-po-zajeciach">Notatki po zajęciach</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_quickstart.html#rzutowanie">Rzutowanie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_quickstart.html#nazewnictwo-zmiennych">Nazewnictwo zmiennych</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_types.html">Zmienne i typy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_types.html#zmienne">Zmienne</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_types.html#nazewnictwo-zmiennych">Nazewnictwo zmiennych</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_types.html#typy">Typy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_types.html#liczby">Liczby</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_types.html#systemy-liczbowe">Systemy liczbowe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_types.html#bool">Bool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_types.html#stringi">Stringi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_types.html#kolekcje">Kolekcje</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_flow.html">Instrukcje sterujące</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_flow.html#instrukcje-warunkowe">Instrukcje warunkowe</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_flow.html#if-elif-else">If, Elif, Else</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_flow.html#tabulacja-czy-spacja">Tabulacja czy spacja</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_flow.html#operator-trojargumentowy">Operator trójargumentowy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_flow.html#petla-for">Pętla FOR</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_flow.html#range">Range()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_flow.html#petla-while">Pętla WHILE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_flow.html#break-continue">break / continue</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_collection.html">Kolekcje</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_collection.html#listy">Listy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_collection.html#list-metody">List - metody</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_collection.html#zagniezdzona-lista">Zagnieżdżona lista</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_collection.html#krotki">Krotki</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_collection.html#tuple-metody">Tuple - metody</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_collection.html#zestaw">Zestaw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_collection.html#slowniki">Słowniki</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_collection.html#dict-metody">Dict - metody</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_functions.html">Funkcje</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_functions.html#funkcje-wbudowane">Funkcje wbudowane</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_functions.html#funkcja-procedura-metoda">Funkcja / procedura / metoda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_functions.html#id2">Funkcje</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_functions.html#skladnia">Składnia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_functions.html#docstring">Docstring</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_functions.html#return">Return</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_functions.html#zasieg-zmiennych">Zasięg zmiennych</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_xmas_tree.html">Christmas Tree</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_xmas_tree.html#listy-oraz-petla-for">Listy oraz pętla <code class="docutils literal notranslate"><span class="pre">for</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_xmas_tree.html#definicja-funkcji">Definicja funkcji</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_xmas_tree.html#zwracanie-wartosci">Zwracanie wartości</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_xmas_tree.html#cala-choinka">Cała choinka</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_xmas_tree.html#zadania">Zadania</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_files.html">Operacje na plikach</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_files.html#tryby-otwarcia-pliku">Tryby otwarcia pliku</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_files.html#pobieranie-calej-zawartosci-pliku">Pobieranie całej zawartości pliku</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_files.html#czytanie-plikow-linia-po-linii">Czytanie plików linia po linii</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_files.html#zapis-do-pliku">Zapis do pliku</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_files.html#zabezpiecznie-przed-nadpisaniem">Zabezpiecznie przed nadpisaniem</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_files.html#kodowanie">Kodowanie</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_json.html">Format JSON</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_json.html#czym-jest-format-json">Czym jest format JSON?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_json.html#json-a-slownik-w-pythonie">JSON a słownik w Pythonie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_json.html#serializacja-i-deserializacja">Serializacja i deserializacja</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_json.html#modul-json">Moduł JSON</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_json.html#serializacja-do-formatu-json">Serializacja do formatu JSON</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_json.html#odczyt-z-pliku-json">Odczyt z pliku JSON</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_json.html#modul-simplejson">Moduł simplejson</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_modules.html">Moduły</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#tworzenie-modulu">Tworzenie modułu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#importowanie-modulu">Importowanie modułu</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_modules.html#as">as</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_modules.html#from">from</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_modules.html#import">import *</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#skad-python-wie-gdzie-szukac-modulu">Skąd Python wie, gdzie szukać modułu?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#funkcja-main">Funkcja main?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_modules.html#przyklad-uzycia">Przykład użycia</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#moduly-wbudowane">Moduły wbudowane</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_modules.html#id1">Przykład użycia</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#pakiety">Pakiety</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_exceptions.html">Wyjątki</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_exceptions.html#obsluga-wyjatkow">Obsługa wyjątków</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_exceptions.html#obsluga-kilku-wyjatkow-na-raz">Obsługa kilku wyjątków na raz</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_exceptions.html#lapanie-dowolnego-wyjatku">Łapanie dowolnego wyjątku</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_exceptions.html#finally">Finally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_exceptions.html#typ-wyjatku">Typ wyjątku</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_exceptions.html#wywolaj-wyjatek">Wywołaj wyjątek</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="algorithm.html">Algorytmy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="algorithm.html#co-to-jest-algorytm">Co to jest algorytm?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#elementy-algorytmu">Elementy algorytmu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#sposoby-zapisywania-algorytmow">Sposoby zapisywania algorytmów</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="algorithm.html#struktury-danych">Struktury danych</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#przeszukiwanie">Przeszukiwanie</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="algorithm.html#algorytmy-sortowania">Algorytmy sortowania</a></li>
+<li class="toctree-l2"><a class="reference internal" href="algorithm.html#reprezentacja-maszynowa-grafow">Reprezentacja maszynowa grafów</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#czym-jest-graf">Czym jest graf?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#przykladowe-grafy">Przykładowe grafy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#reprezentacja-grafu">Reprezentacja grafu</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="algorithm.html#rekurencja">Rekurencja</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="algorithm.html#rekurencja-przyklad">Rekurencja - przykład</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP_intro.html">OOP - wprowadzenie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP_intro.html#podstawowe-pojecia">Podstawowe pojęcia</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_intro.html#cechy-oop">4 cechy OOP</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP_intro.html#budujemy-klase">Budujemy klasę</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_intro.html#inicjalizacja-klasy">Inicjalizacja klasy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_intro.html#metoda-w-klasie">Metoda w klasie</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP_intro.html#obiekty-wbudowane-w-pythonie">Obiekty wbudowane w Pythonie</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP.html">OOP - dziedziczenie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP.html#powtorka-i-wprowadzenie">Powtórka i wprowadzenie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP.html#dziedziczenie">Dziedziczenie</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP.html#super">super()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP.html#dziedziczenie-wielokrotne">Dziedziczenie wielokrotne</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP.html#enkapsulacja">Enkapsulacja</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP.html#gettery-i-settery">Gettery i settery</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP.html#abstrakcja">Abstrakcja</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP.html#polimorfizm">Polimorfizm</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_oop_bj.html">Projekt - Blackjack</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#gra-blackjack">Gra Blackjack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#wysylanie-i-odbieranie-komunikatow">Wysyłanie i odbieranie komunikatów</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#mini-gra-pogromca-obcych">Mini gra - Pogromca obcych</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#komunikacja-opis">Komunikacja - opis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#kombinacje-obiektow">Kombinacje obiektów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#gra-w-karty">Gra w karty</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#klasa-card">Klasa Card</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#klasa-hand">Klasa Hand</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#operowanie-obiektami-klasy-card">Operowanie obiektami klasy Card</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#grupowanie-obiektow">Grupowanie obiektów</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#dziedziczenie">Dziedziczenie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#rozszerzanie-klasy-poprzez-dziedziczenie">Rozszerzanie klasy poprzez dziedziczenie</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#gra-w-karty-2-0">Gra w karty 2.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#klasa-bazowa">Klasa bazowa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#dziedziczenie-po-klasie-bazowej">Dziedziczenie po klasie bazowej</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#rozszerzenie-klasy-pochodnej">Rozszerzenie klasy pochodnej</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#korzystanie-z-klasy-pochodnej">Korzystanie z klasy pochodnej</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#modyfikowanie-zachowania-odziedziczonych-metod">Modyfikowanie zachowania odziedziczonych metod</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#gra-w-karty-3-0">Gra w karty 3.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#id1">Klasa bazowa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#przesloniecie-metod-klasy-bazowej">Przesłonięcie metod klasy bazowej</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#wywolywanie-metod-klasy-bazowej">Wywoływanie metod klasy bazowej</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#uzywanie-klas-pochodnych">Używanie klas pochodnych</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#polimorfizm">Polimorfizm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#tworzenie-modulow">Tworzenie modułów</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_bj.html#prosta-gra">Prosta gra</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#id8">Tworzenie modułów</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#import-modulow">Import modułów</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#uzycie-zaimportowanych-funkcji-i-klas">Użycie zaimportowanych funkcji i klas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#powrot-do-gry-blackjack">Powrót do gry Blackjack</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#modul-karty">Moduł karty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#projektowanie-klas">Projektowanie klas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#pisanie-pseudokodu">Pisanie pseudokodu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#import-modulow-karty-i-gry">Import modułów. Karty i gry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_oop_bj.html#klasa-bj-card">Klasa BJ_Card</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP_2.html">OOP - decoratory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP_2.html#co-to-sa-dekoratory">Co to są dekoratory?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_2.html#domkniecia">Domknięcia</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP_2.html#metody-statyczne-i-metody-klasy">Metody statyczne i metody klasy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_2.html#metoda-klasy-student">Metoda klasy Student</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_2.html#metoda-statyczna-klasy-student">Metoda statyczna klasy Student</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_OOP_2.html#dekorator-property">Dekorator &#64;property</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_OOP_2.html#setter">setter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_oop_strategia.html">Mini projekt - Strategia</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-1">Etap 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-2">Etap 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-3">Etap 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-4">Etap 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-5">Etap 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-6">Etap 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_oop_strategia.html#etap-7">Etap 7</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_unittest.html">Testy jednostkowe</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#po-co-testowac-oprogramowanie">Po co testować oprogramowanie?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="python_unittest.html#id1">Testy jednostkowe</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#unit-test">Unit test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#tworzenie-przypadku-testowego">Tworzenie przypadku testowego</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#tworzenie-ustawien">Tworzenie ustawień</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#tdd">TDD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#sprawdzanie-wyjatku">Sprawdzanie wyjątku</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#testowanie-klasy">Testowanie klasy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_unittest.html#metody-klas-setup-i-teardown">Metody klas - setUp i tearDown</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_test_strategia.html">Mini projekt - Strategia cd.</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-8">Etap 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-9">Etap 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-10">Etap 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-11">Etap 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-12">Etap 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-13">Etap 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-14">Etap 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-15">Etap 15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_test_strategia.html#etap-16">Etap 16</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a href="#" class="logo"><img class="logo" src="_static/logo.png" style="width: 200px; height: 200px; margin: -10px 0 10px 0"></a>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="main.html">Wstęp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Instalacja</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_quickstart.html">Szybkie wprowadzenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_types.html">Zmienne i typy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_flow.html">Instrukcje sterujące</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_collection.html">Kolekcje</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_functions.html">Funkcje</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_xmas_tree.html">Christmas Tree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_files.html">Operacje na plikach</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_json.html">Format JSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_modules.html">Moduły</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_exceptions.html">Wyjątki</a></li>
+<li class="toctree-l1"><a class="reference internal" href="algorithm.html">Algorytmy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP_intro.html">OOP - wprowadzenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP.html">OOP - dziedziczenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_oop_bj.html">Projekt - Blackjack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_OOP_2.html">OOP - decoratory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_oop_strategia.html">Mini projekt - Strategia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_unittest.html">Testy jednostkowe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_test_strategia.html">Mini projekt - Strategia cd.</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+  <div class="footer">
+    &copy; Copyright Fly Nerd.
+  </div>
+  
+  </div>
+  
+  </body>
+</html>
